@@ -11,3 +11,12 @@
 ## Static Functions
 Static Class: No direct method available to make a class static in C++, but we can indirectly make a class static by using static members in that class.
 
+
+--- 
+Non-static members or member functions of a class can access both static and non-static members of the class.
+
+---  
+- cpp files - 
+[file1](../classProg/20-3.cpp)
+[file2](../classProg/18-3.cpp)
+

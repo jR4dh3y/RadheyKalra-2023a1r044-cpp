@@ -1,0 +1,27 @@
+Special Function
+1. inline function
+Normally , when we call a function , the compiler link the function calling with the function definition(known as binding) and position of compiler diverts from calling point to the point where the function definition exists. This happens every time whenever we call a function.
+To save the time of compiler to shift or divert again and again to the point of function definition ,
+we declare a function as Inline function. 
+Inline function are only for functions called multiple times in a program.
+It is not a good choice to declare a function as inline , which is called only once in a Program.
+For inline functions , compiler creates a copy of function definition and store at the point of function calling.
+Imp Point :- Inline function declaration is request to compiler not a command so there may be certain situations when compiler rejects our request to declare a function as inline.
+Situations where compiler reject the inline request:-
+When we use loop inside function.
+When we have pointer references in the function.
+Syntax of Inline Function
+Access Specifier : return type inline function name(parameter list)
+{
+statements ;
+}
+e.g public: void inline Accept()
+{
+}
+When we call a function from main() function , we call with object.
+e.g obj.Accept();
+but when we call a function from inside another function definition , 
+we call it using function name only.
+e.g
+Accept();
+ 

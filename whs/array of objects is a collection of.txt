@@ -1,0 +1,23 @@
+array of objects is a collection of objects of the same class stored in contiguous memory locations. Each element of the array is an object,
+and you can access and manipulate these objects using array indexing. This concept is particularly useful when you need to manage multiple instances 
+of a class efficiently.
+
+It is an array where each element is an object of a specific class.
+
+For example, if you have a class Student, you can create an array of Student objects to store data for multiple students.
+
+You define a class and then create an array of objects of that class.
+You can access the members (data members and member functions) of each object using the array index.
+The objects in the array are stored in contiguous memory locations, just like elements in a regular array.
+
+Advantages of Array of Objects -
+Efficient Storage: Objects are stored in contiguous memory locations, making it memory-efficient.
+Ease of Access: You can easily access and manipulate objects using array indexing.
+Simplified Code: Managing multiple objects becomes easier compared to creating individual objects.
+Suitable for Fixed-Size Collections: Ideal for situations where the number of objects is known and fixed.
+
+Disadvantages of Array of Objects -
+Fixed Size: The size of the array is fixed at compile time, so you cannot dynamically resize it. 
+No Bounds Checking: C++ does not perform bounds checking for arrays, so accessing out-of-bounds elements can lead to undefined behavior.
+Inefficient for Large Collections: If the number of objects is large and dynamic, an array may not be the best choice. Instead, you should use dynamic data structures like std::vector.
+Manual Memory Management: If the objects contain dynamically allocated memory, you need to manually manage memory to avoid leaks.

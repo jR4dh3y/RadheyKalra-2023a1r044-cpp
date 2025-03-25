@@ -1,0 +1,33 @@
+Array of Objects
+
+Array is a collection of similar types of data elements.
+
+Similarly, in array of objects, data elements are nothing but the objects of class.
+The Array of Objects stores objects. 
+
+An array of objects can be used if there is a need to store data of more than one person.
+
+Syntax for array of objects
+
+classname objectname[size];
+student obj[5];
+
+e.g    
+
+void accept(){
+cout<<"\n Enter your name and rollno ";
+cin>>name>>r;
+cout<<"\n Name ="<<name<<"\n ROllno ="<<r;
+}
+student obj[5];
+for(i=0;i<5;i++)
+{
+obj[i].accept();
+}
+
+Advantages of Array of Objects: 
+The array of objects represent storing multiple objects in a single name.
+In an array of objects, the data can be accessed randomly by using the index number.
+Reduce the time and memory by storing the data in a single variable.
+
+

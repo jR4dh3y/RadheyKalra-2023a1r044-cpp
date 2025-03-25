@@ -1,0 +1,8 @@
+Special Types of Functions:- 
+Inline Function
+Static Function
+Abstract Function
+Virtual Function
+Pure Virtual Function
+Constructor 
+Destructor

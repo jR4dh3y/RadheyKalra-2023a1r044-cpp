@@ -1,0 +1,20 @@
+Array of Objects:- 
+Array :- Data Structure
+1. Static 
+int a[5];
+2. Linear
+3. Contigous memory location
+4. index start at index 0
+5. last element at index n-1
+
+Declaration of Array in Cpp
+Syntax:-
+data types array name dimention;
+e.g int array1[5];
+Initilization of Array
+Two Different Methods:-
+1. Direct Method :- accept value form user or assign value at compile time
+2. Accept Method:- accepts value form user 
+using loop
+
+

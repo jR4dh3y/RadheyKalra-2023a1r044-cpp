@@ -1,0 +1,56 @@
+function() :- collection of statements combine to perform a particular task.
+Functions has three parts
+1. Function declaration
+2. Function definition
+3. Function calling
+Function Types
+1.predefine 
+
+2.user define
+ 
+Syntax of class:
+class classname
+{
+Access Specifier:
+member variable ;
+Access Specifier :
+Member function declaration;
+};
+Encapsulation And Abstraction is implemented in program using Access Specifiers(decides the scope)
+1. Public (Global Scope)
+2. Private (Limited Scope)
+3. Protected(Act as both Public and Private depends on the inheritance )
+
+Types of Function 
+1. Function with no return type and no parameter or arguments
+2. Function with return type and no parameter
+3. function with no return type and parameter
+4. function with return type and parameter
+Syntax
+return type function name(parameter list)
+{
+statement 
+or statements
+}
+e.g int a;
+void fun()
+{
+a=10;
+}
+e.g 2 void fun()
+{
+int a;
+}
+e.g3 void fun(int a)
+{
+}
+
+
+
+
+
+
+
+
+
+

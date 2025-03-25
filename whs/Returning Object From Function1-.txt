@@ -1,0 +1,25 @@
+Returning Object From Function:-
+1. Return As Value(create separate copy )
+2. Return As Reference (will refer orignal Object)
+3. Return As Pointer(dynamically initlization)
+e.g 
+int Fun()
+{
+return statement;
+return 5;
+return a+b;
+}
+int main()
+{
+int res = Obj.Fun();
+}
+A function can return single value at a time.
+Object has data type class
+e.g 2
+Class Program
+{
+Program Fun()
+{
+return obj;
+}
+

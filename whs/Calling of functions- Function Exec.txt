@@ -1,0 +1,6 @@
+Calling of functions:- Function Execution 
+Types 
+1. Call By Value :- Any change in actual will reflect in formal and any change in formal will 
+not reflect in actual parameter.
+2. Call By Reference :-Any change in actual will reflect in formal and reverse is also true.
+(implemented using pointers)

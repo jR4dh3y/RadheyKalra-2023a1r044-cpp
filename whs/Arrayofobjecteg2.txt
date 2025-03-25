@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Define a class
+class Student {
+private:
+    string name;
+    int age;
+
+public:
+    // Constructor to initialize the object
+    Student(string n, int a) {
+        name = n;
+        age = a;
+    }
+
+    // Member function to display student details
+    void display() {
+        cout << "Name: " << name << ", Age: " << age << endl;
+    }
+};
+
+int main() {
+    // Create an array of Student objects
+    Student students[3] = {
+        Student("Alice", 20),
+        Student("Bob", 21),
+        Student("Charlie", 22)
+    };
+
+    // Access and display each student's details
+    for (int i = 0; i < 3; i++) {
+        students[i].display();
+    }
+
+    return 0;
+}

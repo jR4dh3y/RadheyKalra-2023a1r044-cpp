@@ -1,0 +1,62 @@
+Q1. Create a class Rectangle with private data members length and width. Implement public member functions to:
+
+Set the dimensions of the rectangle.
+
+Calculate and return the area of the rectangle.
+
+Display the dimensions and area.
+
+Q2. Create a class BankAccount with private data members accountNumber, balance, and accountHolderName. Implement public member functions to:
+
+Deposit money into the account.
+
+Withdraw money (ensure the balance does not go negative).
+
+Display the account details.
+
+Q3. Create a class Student with private data members rollNumber, name, and marks. Write a program to:
+
+Create an array of 5 Student objects.
+
+Accept input for each student.
+
+Display the details of the student with the highest marks.
+Q4. Create a class Distance with private data members meters and centimeters. Write a program to:
+
+Add two Distance objects by passing them as arguments to a member function.
+
+Return the result as a new Distance object.
+Q5.Create a class Time with private data members hours, minutes, and seconds. Write a program to:
+
+Add two Time objects and return the result as a new Time object from a function.
+
+Handle overflow (e.g., if seconds exceed 60, increment minutes).
+Q6.Create a class MathOperations with private data members a and b. Implement inline functions to:
+
+Add a and b.
+
+Multiply a and b.
+
+Display the results.
+Q7. Create a class Employee with private data members name, salary, and a static data member count to keep track of the number of employees. Implement:
+
+A constructor to increment count.
+
+A static function to display the total number of employees.
+Q8.Create a class Box with private data members length, width, and height. Implement:
+
+A default constructor to initialize all dimensions to 1.
+
+A parameterized constructor to initialize dimensions with given values.
+
+A constructor to initialize a cube (all dimensions equal).
+
+Display the volume of the box.
+
+Q9. Create a class String with a private data member char* str to store a dynamic string. Implement:
+
+A constructor to allocate memory and initialize the string.
+
+A destructor to deallocate memory.
+
+A function to display the string.

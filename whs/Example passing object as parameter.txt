@@ -1,0 +1,8 @@
+Example to Understand working of 
+Passing Object As Argument to function using Call By Value Method.
+
+Write a Program to create a class name BillingApp,
+with attributes like Product Name , Price,
+implement a function Discount() that calculates 10% discount on Price and display result.
+Discount Function will not modify original price of the product.
+

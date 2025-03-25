@@ -1,0 +1,37 @@
+OOP :- Object Oriented Programming Language
+Terms 
+1. Object :- instance of class.
+
+
+Class :- Collection of objects with similar characteristics 
+or 
+Blue print of Program or
+Considered as a protective wall surrounding member variables and member functions.
+
+Main Features of OPP
+1. Encapsulation & Abstraction
+"Process of Wrapping up of data or variables and function or methods in class".
+To Protect our data and function from unauthorized access .
+This process is also known as Data Hiding.
+
+Abstraction :- Process of Showing relevant information only.
+Encapsulation And Abstraction is implemented using
+ (Access Specifiers :- decide scope:- Local / Global / Partial )
+
+2. Inheritance 
+Reusability:
+Inherits features of existing class features in to new class.
+Rule :- New class must have atleast 1 new feature.
+
+3. Polymorphism
+Is a Greek word 
+Poly means "many"
+Morph means "forms "
+Ability to exist in many forms.
+Implemented Using 
+Static Polymorphism(Early Binding or Function Overloading) and 
+Dynamic Polymorphism(Late Binding or Function Over riding)
+
+
+
+

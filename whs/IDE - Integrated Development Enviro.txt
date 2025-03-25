@@ -1,0 +1,16 @@
+IDE :- Integrated Development Environment.
+
+Object :- Instance of class.
+
+class :- 
+e.g in c program
+void function1()
+{
+code
+}
+main()
+{
+function1();
+}
+object / class
+

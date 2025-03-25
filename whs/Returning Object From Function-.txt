@@ -1,0 +1,16 @@
+Returning Object From Function:-
+1. Return By Value  :- return a copy of object
+2. Return By Reference :- return reference of same object 
+3. Return By Pointer :- dynamic allocation  of objects
+e.g
+
+int fun()
+{
+return 10;
+}
+A function can return single value at a time.
+data type of object is class.
+
+
+
+

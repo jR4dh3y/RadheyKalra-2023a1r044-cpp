@@ -1,0 +1,61 @@
+Constructor and Destructor :- Special types of functions.
+e.g 
+class A
+{
+private : int x,y;
+public: void fun()
+{
+}
+};
+int main()
+{
+A obj;
+}
+Properties of Constructor.
+1. Constructor is a special type of function with name same as class name.
+e.g 
+class Program
+{
+public : Program()
+{
+}
+}
+2. declare with no return type not even void.
+3. always declare as public.
+4.  automatically get called when you create instance(object) of class.
+5. used to initialize memory of member variables.
+
+Types of Constructor
+1. Default constructor (constructor with no parameter or constructor with default values)
+2. Parametrized constructor or Constructor with parameter.
+3. Copy Constructor 
+
+Properties of Destructor
+1. Destructor is a special type of function with name same as class name with tild sign(~).
+e.g 
+class Program
+{
+public : ~Program()
+{
+}
+}
+2. declare with no return type not even void.
+3. always declare as public.
+4.  automatically get called when you create instance(object) of class.
+5. used to free memory of member variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

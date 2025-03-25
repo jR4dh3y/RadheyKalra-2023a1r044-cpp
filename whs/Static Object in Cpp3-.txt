@@ -1,0 +1,16 @@
+Static Object in Cpp:-
+In Case of Normal Object created inside a function , 
+first constructor of class invoked , then constructor initialize memory to member varaibles
+and member function and finally desctructor of the class invoked.
+If we recall this function , again the whole process executed in the same sequence.
+Beacuse the life time of a normal object is depend upon a function call.
+
+But in case of Static object of a class , the constructor of class invoked only once ,
+the life time of static object is present througout the program , destructor is invoked
+at the end of the program . This means static object remains in existence until 
+program ends.
+ Imp Point :-
+1. A static object is created once and destroyed at the end of the program.
+2. Static Object retains its state through out the function call.
+3. If a static object is declared inside a function , then its scope is limited to the function
+but the life of the object remain until program ends.

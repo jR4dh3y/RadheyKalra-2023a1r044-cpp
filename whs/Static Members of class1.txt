@@ -1,0 +1,10 @@
+Static Members of class
+Imp Points:-
+1.Static Members belongs to the class rather than any object of class.
+2. If we create multiple instances(objects ) of class , static members don't replicate in memory,
+all instances of class will shared same memory location for static members.
+(Only one copy of Static member exists in memory)
+3. Static Members are declared inside the class but defined outside the class.
+4. Declared with keyword static.
+4. Access using class name or object name.
+5. If we don't define or initialize static variable , it is automatically initialized with 0.

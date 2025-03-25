@@ -1,0 +1,16 @@
+Static Members in Cpp:-
+1.we can create a member as static using static keyword.
+2.if don't initialize static variable it will automatically get initialized with value 0.
+3. Static members belongs to class not belong to instance of class.
+4. access using class name 
+5. Static variables are shared among all instances of class. They do not replicate in memory.
+e.g Program::Fun();
+Program::a;
+A.Static Variables:-
+a.Static varaibles can be declared as global variable.
+b.can be declared inside the function.
+c.can be declared inside class.
+Static Functions
+Static Class :- no direct method available to make class as static in cpp but we can indirectly
+make a class as static by using only static members in that class.
+Static Object

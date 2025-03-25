@@ -1,0 +1,15 @@
+Constructor Overloading(Polymorphism):-
+Types of Polymorphism
+1. Static Polymorphism or Compile time or Early Polymorphism or Early Binding
+e.g Function Overloading , Constructor Overloading , Operator Overloading
+In Function Overloading or Constructor Overloading:-
+we use same function multiple times in our program to perform different tasks.
+To use same function multiple times , we have to follow rules,
+Every time ,when  we reuse a function , 
+we have to change
+1. Number of parameters or type or Parameters or order of Parameters
+
+2. Dynamic Polymorphism or Run time Polymorphism or Late Polymorphism or Late Binding
+e.g Function Overriding (Inheritance)
+
+

@@ -1,0 +1,64 @@
+Q1: Passing Object by Value
+Create a Rectangle class with length and width as private attributes.
+
+Write a constructor to initialize these attributes.
+Create a method area() that returns the area of the rectangle.
+Write a function doubleArea(Rectangle obj) that takes an object by value, doubles its length and width, and prints the new area.
+Test whether the original object is modified or not.
+Q2: Passing Object by Reference
+Modify the above Rectangle program to:
+
+Pass the object by reference in doubleArea(Rectangle &obj), so that changes reflect in the original object.
+Test and print the new values in main().
+Q3: Bank Account Management
+Create a BankAccount class with attributes accountNumber and balance.
+
+Implement methods for depositing and withdrawing money.
+Write a function transfer(BankAccount &sender, BankAccount &receiver, double amount) that transfers money from one account to another.
+Test the function by creating two accounts and transferring money.
+Q4: Student Grades Update
+Create a Student class with attributes name and marks.
+
+Implement a function updateMarks(Student &s, int newMarks) that updates the marks of the student.
+Pass the object by reference to ensure the changes reflect in the original object.
+Test it in main().
+Q5: Employee Bonus Calculation
+Create a class Employee with attributes name, salary, and bonusPercentage.
+
+Write a function applyBonus(Employee &e) that increases the salary by the given bonus percentage.
+Pass the object by reference so the salary update is reflected in the original object.
+Test it in main().
+Q6: Dynamic Object Handling
+Create a Car class with attributes brand and price.
+
+Use new to create an object dynamically.
+Write a function applyDiscount(Car *c, float discountPercentage) that reduces the price.
+Pass the object by pointer and ensure the price is modified.
+Test the function in main().
+Q7: Library Book System
+Create a class Book with attributes title, author, and isIssued.
+
+Write a function issueBook(Book &b) that marks the book as issued.
+Write another function returnBook(Book &b) that marks the book as available.
+Use pass-by-reference to ensure changes reflect in the original object.
+Test by creating a book object and issuing/returning it.
+Q8: Comparing Two Objects
+Create a Person class with attributes name and age.
+
+Write a function isOlder(Person p1, Person p2) that compares two Person objects and prints who is older.
+Pass objects by value.
+Modify the function to use pass-by-reference and test if it improves efficiency
+Q9: Game Score Update
+Create a Player class with attributes name and score.
+
+Write a function updateScore(Player &p, int points) that adds points to the player's score.
+Pass the object by reference to update the original object.
+Test the function by creating a player and updating the score multiple times.
+Q10: E-commerce Order System
+Create an Order class with attributes orderId, customerName, and totalAmount.
+
+Write a function applyDiscount(Order &o, float percentage) that reduces the total amount.
+Pass the object by reference so the discount applies to the original object.
+Test with multiple orders.
+1. Bank Account Transfer
+Create a BankAccount class with a balance member. Write a function transfer that takes two BankAccount objects and an amount, and transfers the amount from the first account to the second.

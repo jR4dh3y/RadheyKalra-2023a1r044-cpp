@@ -1,0 +1,2 @@
+Write a program to store 10 rollno of Weak Learners of your class and 10 rollno of Advance learner of your class , according to you.
+Store rollno's in two different array and display the record.

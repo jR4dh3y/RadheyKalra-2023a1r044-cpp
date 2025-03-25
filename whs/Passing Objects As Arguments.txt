@@ -1,0 +1,21 @@
+Passing Objects As Arguments:
+Objects of a class can be passed as arguments to functions in three ways:
+1.Pass by Value
+2.Pass by Reference
+3.Pass by Pointer
+The method you choose depends on whether you want to 
+modify the original object, 
+avoid copying the object, 
+or simply use the object's value. 
+1. Pass by Value
+When an object is passed by value, a copy of the object is created, and any modifications made inside the function do not affect the original object.
+e.g 
+2. Pass by Reference
+When an object is passed by reference, modifications inside the function affect the original object.
+e.g
+3. Pass by Pointer
+When an object is passed by pointer, we pass the address of the object, and modifications affect the original object.
+e.g
+1.Use pass by reference (&) to avoid unnecessary copying and improve performance.
+2.Use pass by pointer (*) when working with dynamically allocated objects.
+3.Use pass by value when you want to keep the original object unchanged.

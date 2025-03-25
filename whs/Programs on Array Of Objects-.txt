@@ -1,0 +1,19 @@
+Programs on Array Of Objects:-
+1. Write a program that stores information about 5 students(Name, RegNO,Marks)
+using an array of object.
+a. implement a function display all records.
+b. implement a function that search student by Registration number..
+c.Calculate Percentage  of each student.
+d. Determine grade based on Percentage
+Grade A >= 80%
+ Grade B>=70%
+Grade C>=60
+Grade D>=50
+other wise Fail
+2. Design a Payroll System for an organization,
+Create a program to record information of 5 Employees with attributes(EmpId,Name,
+Salary).
+a.create array of object to store destails.
+b.Implement a constructor to initialize employee details.
+c. Implement a function that increase salary of all employees by 10%
+d. display updated record

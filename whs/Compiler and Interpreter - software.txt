@@ -1,0 +1,9 @@
+Compiler and Interpreter :- software used to convert high level language to low level and 
+low level to high level.
+
+Compiler :- reads complete code and display all errors
+
+Interpreter :- reads code line by line.
+If a error is found in a line , interpreter will not proceed to next line , until we resolve the error at that line.
+
+Libraries :- installed predefine functions and classes.

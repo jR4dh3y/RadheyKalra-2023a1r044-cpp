@@ -1,0 +1,25 @@
+Array of Objects
+Array
+datatype arrayname dimention[]
+
+e.g int a[5];
+Properties of Array
+1. Static data type
+2. contiguous memory location.
+3. linear data structure
+4. first element at index 0
+5. last element at index n-1
+where n is total number of elements
+
+Declaration of Array Syntax
+datatype array name dimention;
+Initilization of Array
+1. Direct Method
+2. Accept Method
+Syntax of Declaration and Initilization of Array
+datatype arrayname dimention ={list of elements};
+
+Array of Object:- collection of objects.
+Syntax
+class name objectname dimention[];
+

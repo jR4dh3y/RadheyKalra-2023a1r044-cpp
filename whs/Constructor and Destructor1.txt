@@ -1,0 +1,36 @@
+Constructor and Destructor
+Special Type of Functions.
+Constructor :- is used to initialize memory for member variables and member function.
+Destructor :- is used to free memory utilized by member variables and member function.
+
+Imp. Points on Constructor.
+1. Constructor is a special type of function with name same as class name.
+e.g 
+class A
+{
+public : A()
+{
+}
+}
+2. No return type.
+3. Always declared as public.
+4. Automatically get called when we create instance(object) of class.
+5. Used to initialize member variables.
+Types of Constructor
+1. Default Constructor  (constructor with no parameter or default parameter)
+2. Constructor with parameter or parametrized constructor 
+3. Copy Constructor
+4. Constructor overloading
+Class A
+{
+private : int x,y;
+public : void add()
+{
+}
+};
+int main()
+{
+A obj;
+}
+
+

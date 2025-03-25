@@ -1,0 +1,24 @@
+1.Static Polymorphism / Early Binding / Compile Time Polymorphism.
+Function Overloading
+Rules :- Number of Parameters or order of parameter or type of parameter
+e.g
+fun1()
+{
+task A
+}
+fun1(int a)
+{
+task B
+}
+fun1(int a , int b)
+{
+task c
+}
+int main()
+{
+A obj;
+obj.fun1(5,5);
+obj.fun1(7);
+obj.fun1();
+}
+

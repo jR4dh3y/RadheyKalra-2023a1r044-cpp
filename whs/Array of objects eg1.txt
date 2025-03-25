@@ -1,0 +1,19 @@
+rray of objects
+Array is a collection of data with similar data type.
+Q Write a program to create student management system of 10 students and create two functions accept() and display()
+accept functions store Student id(e.g St01), Student Name and Marks,
+display function () display records entered by the user,
+using array of objects?
+syntax
+class name object name[size];
+class Program
+{
+dispaly()
+{
+
+}
+
+Program obj[60];
+for(i=0);i<60;i++)
+{
+obj[i].dispaly();

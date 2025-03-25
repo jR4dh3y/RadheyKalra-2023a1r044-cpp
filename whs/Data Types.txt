@@ -1,0 +1,10 @@
+int fun(int a , int b)
+{
+
+}
+Data Types(defines the type of data stored in variable) in Cpp
+Types of Data Type 
+1. Pre Define
+int , char , float , double , Boolean , string  , vector
+2. User Define
+class , array , structure , stack , queue , tree etc

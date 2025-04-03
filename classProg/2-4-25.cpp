@@ -34,33 +34,32 @@ int main(){
 
 }
 
-*/
 
 class parent{
     public:
-        parent(){
-            cout << "parent constructor" << endl;
-        }
-        void fn1(){
-            cout << "parent class fn1" << endl;
-        }
-        ~parent(){
-            cout << "parent destructor" << endl;
-        }
+    parent(){
+        cout << "parent constructor" << endl;
+    }
+    void fn1(){
+        cout << "parent class fn1" << endl;
+    }
+    ~parent(){
+        cout << "parent destructor" << endl;
+    }
 };
 
 class child : public parent{
     public:
-        child(){
-            cout << "child constructor" << endl;
-        }
-        void fn2(){
-            cout << "child class fn2" << endl;
-        }
-        ~child(){
-            cout << "child destructor" << endl;
-        }
-    };
+    child(){
+        cout << "child constructor" << endl;
+    }
+    void fn2(){
+        cout << "child class fn2" << endl;
+    }
+    ~child(){
+        cout << "child destructor" << endl;
+    }
+};
 
 int main(){
     child p;
@@ -68,3 +67,17 @@ int main(){
     p.fn2();
     return 0;
 }
+
+
+
+
+SINGLE level inhertace 
+
+write a program to 
+a. create a base class with name myapp
+b. create a fn with name wellcome_message() , accept pin from user and calidate pin against value 123, other function will execute only if pin is valid
+d. 
+*/
+
+
+

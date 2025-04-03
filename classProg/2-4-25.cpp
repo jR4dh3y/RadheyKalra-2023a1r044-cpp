@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+/*
 class program{
     public:
         const int a = 1;
@@ -31,4 +32,39 @@ int main(){
     
     return 0;
 
+}
+
+*/
+
+class parent{
+    public:
+        parent(){
+            cout << "parent constructor" << endl;
+        }
+        void fn1(){
+            cout << "parent class fn1" << endl;
+        }
+        ~parent(){
+            cout << "parent destructor" << endl;
+        }
+};
+
+class child : public parent{
+    public:
+        child(){
+            cout << "child constructor" << endl;
+        }
+        void fn2(){
+            cout << "child class fn2" << endl;
+        }
+        ~child(){
+            cout << "child destructor" << endl;
+        }
+    };
+
+int main(){
+    child p;
+    p.fn1();
+    p.fn2();
+    return 0;
 }

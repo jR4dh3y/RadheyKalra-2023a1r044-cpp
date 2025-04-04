@@ -10,6 +10,12 @@ types of inheritance:
 4. Hibrid inheritance
 5. Hierarchical inheritance
 
+## Single level inheritance
+
+parent class -> child class
+
+refference: [2-4-25.cpp](../classProg/2-4-25.cpp)
+
 
 ### important points
 - to inherit existing class featurs into new class, we have atleast 1 new feature in new class.
@@ -18,8 +24,17 @@ types of inheritance:
     1. constructor follows top to bottom order, first base class constructor is invoked and then child class.
     2. diestructor follows bottom to top order, first child class destructor is invoked and then base class.
 
+### Rules of access specifiers in inheritance 
+1. Public - Public members of base class remains public in derived class.
+2. Private - Private members of base class are not directly accessible in derived class.
+3. Protected - members of base class remain protected in derived class, protected will act as public to derived class and private to other classes
+4. Default - if we dont declare any access specifier with member ver and member fn,private access specifier is automatically appplied on it.
 
-## Single level inheritance
+- we always declare instance of child class or derived class.
+- instance or object of child class can only access public member of parent class
+
+## Multi level inheritance
+
+parent class -> child class -> grand child class
+
 refference: [2-4-25.cpp](../classProg/2-4-25.cpp)
-
-

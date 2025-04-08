@@ -38,3 +38,36 @@ refference: [2-4-25.cpp](../classProg/2-4-25.cpp)
 parent class -> child class -> grand child class
 
 refference: [2-4-25.cpp](../classProg/2-4-25.cpp)
+
+## Multiple inheritance
+- In this type of inheritance, a derived class can have more than one base class.
+
+parent class1,class2 -> child class 
+
+- constructor of base class which was declared first in inheritance list will be invoked first, then the constructor of second base class will be invoked.
+
+```
+
+[parent class 1]    [parent classs 2]
+    \                       /
+     \                     /
+      \                   /
+        [  child class  ]
+
+```
+
+refference: [7-4-25.cpp](../classProg/7-4-25.cpp)
+
+
+## Hierarchical inheritance
+- In this type of inheritance, a single base class can have more than one derived class.
+
+```
+         [parent class]
+           /       \
+          /         \
+         /           \
+[child class 1]    [child class 2]
+
+```
+refference: [7-4-25.cpp](../classProg/7-4-25.cpp)

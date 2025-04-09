@@ -152,7 +152,7 @@ class guest : public admin{
                 while (true) {
                     auto now = chrono::high_resolution_clock::now();
                     auto duration = chrono::duration_cast<chrono::seconds>(now - start);
-                    cout << "Time elapsed: " << duration.count() << " seconds" << endl;
+                    // cout << "Time elapsed: " << duration.count() << " seconds" << endl;
                     if (duration.count() >= 5) {
                         cout << "Time is up!" << endl;
                         break;
@@ -173,5 +173,27 @@ int main(int argc, char *argv[]){
 
     guest g;
     g.guest_login(0, "guest");
+    // Check if command line arguments are provided
+    if (argc > 2) {
+    //     // Convert string password to integer
+    //     int password = atoi(argv[2]);
+    //     string username = argv[1];
+        
+    //     cout << "Attempting login with command line arguments..." << endl;
+    //     int loginResult = a.login(password, username);
+        
+    //     if (loginResult == 1) {
+    //         cout << "Admin login successful via command line" << endl;
+    //         dba cmdAdmin(password, username);
+    //         cmdAdmin.acpt();
+    //     } else if (loginResult == 2) {
+    //         cout << "Guest login successful via command line" << endl;
+    //         g.guest_login(password, username);
+    //     } else {
+    //         cout << "Login failed: Invalid credentials" << endl;
+    //     }
+    // } else {
+    //     cout << "Usage: " << argv[0] << " <username> <password>" << endl;
+    // }
     return 0;
 }

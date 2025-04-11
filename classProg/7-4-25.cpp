@@ -174,7 +174,7 @@ int main(int argc, char *argv[]){
     guest g;
     g.guest_login(0, "guest");
     // Check if command line arguments are provided
-    if (argc > 2) {
+    // if (argc > 2) {
     //     // Convert string password to integer
     //     int password = atoi(argv[2]);
     //     string username = argv[1];

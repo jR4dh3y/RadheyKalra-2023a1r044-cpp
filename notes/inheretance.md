@@ -71,3 +71,39 @@ refference: [7-4-25.cpp](../classProg/7-4-25.cpp)
 
 ```
 refference: [7-4-25.cpp](../classProg/7-4-25.cpp)
+
+
+## Hybrid inheritance
+
+- In this type of inheritance, a derived class can have more than one base class and a single base class can have more than one derived class.
+
+<div style="text-align: center; position: relative;">
+  <div>[Parent Class]</div>
+  <div>
+    <span style="position: relative; left: -50px;">/</span>
+    <span style="position: relative; left: 50px;">\</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; width: 250px; margin: 0 auto;">
+    <div>[Child Class 1]</div>
+    <div>[Child Class 2]</div>
+  </div>
+  <div>
+    <span style="position: relative; left: -50px;">\</span>
+    <span style="position: relative; left: 50px;">/</span>
+  </div>
+  <div>[Child Class 3]</div>
+</div>
+
+- ambiguity problem in hybrid inheritance
+    - when we have multiple base classes and both base classes have same member function, then compiler will not be able to decide which member function to call. It will give ambiguity error.
+    - to resolve this ambiguity problem, we use scope resolution operator (::) to specify which base class member function we want to call.
+
+
+
+it is a combination of single level, multilevel or multiple inheritence.
+When we try to access Parent class function from a child class, the path to reach the parent class function from a child class causes the compiler to raise a *Ambiguous Function Error* because of the existence of multiple paths to reach the parent class from child class, and the compiler itself
+never takes this decision to select the path from multiple available paths and raises the error.
+
+To solve the problem, we use the scope resolution operator :: or virtual inheritance
+
+refference [11-4-25](../classProg/11-4-25.cpp)

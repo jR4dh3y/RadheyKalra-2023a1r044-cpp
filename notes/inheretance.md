@@ -94,6 +94,7 @@ refference: [7-4-25.cpp](../classProg/7-4-25.cpp)
   <div>[Child Class 3]</div>
 </div>
 
+
 - ambiguity problem in hybrid inheritance
     - when we have multiple base classes and both base classes have same member function, then compiler will not be able to decide which member function to call. It will give ambiguity error.
     - to resolve this ambiguity problem, we use scope resolution operator (::) to specify which base class member function we want to call.

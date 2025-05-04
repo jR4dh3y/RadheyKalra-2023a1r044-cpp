@@ -5,6 +5,9 @@
         "*.dbclient-js": "javascript",
         "iostream": "cpp",
         "text_encoding": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "ostream": "cpp",
+        "chrono": "cpp",
+        "typeinfo": "cpp"
     }
 }

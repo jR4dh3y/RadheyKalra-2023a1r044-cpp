@@ -8,6 +8,8 @@
         "thread": "cpp",
         "ostream": "cpp",
         "chrono": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "string": "cpp",
+        "format": "cpp"
     }
 }

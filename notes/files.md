@@ -17,5 +17,9 @@ to handel files in cpp we use `<fstream>` header file.
 4. append       
 5. read/write   by `fstream`  
 
+ios :: in :- Read
+ios :: out :- write
+ios :: app :- append
+ios :: ate :: move to end
 
 [reff](../classProg/2-5-25.cpp)
